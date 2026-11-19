@@ -3,24 +3,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Black Americans', //Will appear in the data.
-			title : {
-				media : {word : 'Black Americans'}, //Name of the category presented in the task.
-				css : {color:'#000000','font-size':'2em'}, //Style of the category title.
-				height : 4 //Used to position the "Or" in the combined block.
-			}, 
-			stimulusMedia : [ //Stimuli content as PIP's media objects
-  		        {image : 'CFD-BF-017.jpg'}, 
-    			{image : 'CFD-BF-040.jpg'}, 
-    			{image : 'CFD-BF-208.jpg'}, 
-   			    {image : 'CFD-BM-038.jpg'}, 
-   			    {image : 'CFD-BM-205.jpg'}, 
-   			    {image : 'CFD-BM-225.jpg'}			
-			], 
-			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
-		category2 :	{
 			name : 'White Americans', //Will appear in the data.
 			title : {
 				media : {word : 'White Americans'}, //Name of the category presented in the task.
@@ -33,7 +15,25 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     			{image : 'CFD-WF-038.jpg'}, 
    			    {image : 'CFD-WM-040.jpg'}, 
    			    {image : 'CFD-WM-214.jpg'}, 
-   			    {image : 'CFD-WM-230.jpg'}					
+   			    {image : 'CFD-WM-230.jpg'}  		
+			], 
+			//Stimulus css (style)
+			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+		},	
+		category2 :	{
+			name : 'Black Americans', //Will appear in the data.
+			title : {
+				media : {word : 'Black Americans'}, //Name of the category presented in the task.
+				css : {color:'#000000','font-size':'2em'}, //Style of the category title.
+				height : 4 //Used to position the "Or" in the combined block.
+			}, 
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+				{image : 'CFD-BF-017.jpg'}, 
+    			{image : 'CFD-BF-040.jpg'}, 
+    			{image : 'CFD-BF-208.jpg'}, 
+   			    {image : 'CFD-BM-038.jpg'}, 
+   			    {image : 'CFD-BM-205.jpg'}, 
+   			    {image : 'CFD-BM-225.jpg'}	
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -55,7 +55,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 					{word: 'Excellent'}
 				],
 				//Stimulus css
-				stimulusCss : {color:'#048832','font-size':'2.3em'}
+				stimulusCss : {color:'#000000','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
@@ -74,7 +74,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 					{word: 'Terrible'}
 				],
 				//Stimulus css
-				stimulusCss : {color:'#048832','font-size':'2.3em'}
+				stimulusCss : {color:'#000000','font-size':'2.3em'}
 			},	
  			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
