@@ -43,7 +43,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				name : 'Good',
 				title : {
 					media : {word : 'Good'},
-					css : {color:'#000000','font-size':'1.8em'},
+					css : {color:'#048832','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -55,14 +55,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 					{word: 'Excellent'}
 				],
 				//Stimulus css
-				stimulusCss : {color:'#000000','font-size':'2.3em'}
+				stimulusCss : {color:'#048832','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
 				name : 'Bad',
 				title : {
 					media : {word : 'Bad'},
-					css : {color:'#000000','font-size':'1.8em'},
+					css : {color:'#048832','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -74,7 +74,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 					{word: 'Terrible'}
 				],
 				//Stimulus css
-				stimulusCss : {color:'#000000','font-size':'2.3em'}
+				stimulusCss : {color:'#048832','font-size':'2.3em'}
 			},	
  			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
